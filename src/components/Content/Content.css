@@ -1,0 +1,30 @@
+.contents{
+    flex:1;
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.contents .navs-angle-page .nav{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.contents .more-games button{
+    border: 0;
+    outline: none;
+    padding: 6px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+
+@media screen and (max-width: 400px){
+    .contents{min-width: 300px}
+    .contents .navs-angle-page,.contents .more-games{
+    display: none;
+    }
+    
+}

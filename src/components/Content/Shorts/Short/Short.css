@@ -1,0 +1,75 @@
+.short-single{
+   width: 330px;
+   border-radius: 5px;
+}
+
+.short-single .bg-image{
+    width: 330px;
+    height: 210px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+
+
+
+.short-single .bg-image .overlay{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.4);
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.short-single .bg-image .overlay:hover{
+    border: 3px solid #fff;
+}
+
+.short-single .bg-image .overlay .icon-play{font-size: 55px;}
+
+.short-single .game{
+    font-size: 14px;
+}
+
+.short-single .views{
+    font-size: 12px;
+}
+
+.short-single .link a{
+    padding: 5px 20px;
+    border-radius:22px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 622px){
+    .short-single{
+        width: 280px;
+     }
+     
+     .short-single .bg-image{
+         width: 280px;
+         height: 160px;
+     }
+     
+}
+
+@media screen and (max-width: 402px){
+    .short-single{
+        width: 260px;
+     }
+     
+     .short-single .bg-image{
+         width: 260px;
+         height: 140px;
+     }
+
+     .short-single .bg-image .overlay .icon-play{font-size: 35px;}
+     
+     .short-single .link a{
+        padding: 3px 10px;
+        font-size: 11px;
+    }
+}

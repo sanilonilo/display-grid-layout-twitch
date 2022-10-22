@@ -1,0 +1,24 @@
+
+.games-container .bg-image{
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.games-container .name{
+    font-size: 12px;
+}
+
+.games-container .views{font-size: 11px;}
+
+@media screen and (max-width: 400px){
+
+    .games-container .name{
+        font-size: 11px;
+    }
+
+    .games-container .views{font-size: 10px;}
+}

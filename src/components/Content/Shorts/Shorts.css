@@ -1,0 +1,9 @@
+.shorts{
+    overflow-x: auto;
+}
+
+.shorts::-webkit-scrollbar{width: 0;}
+  
+.shorts::-webkit-scrollbar-track{background: rgba(0,0,0,0)}
+  
+.shorts::-webkit-scrollbar-thumb {background-color: rgba(0,0,0,0); }

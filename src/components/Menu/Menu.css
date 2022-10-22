@@ -1,0 +1,37 @@
+.menu{
+    transition: 0.3s;
+    height: 100vh;
+}
+
+.menu .box-1{
+    width: 100%;
+    height: 70%;
+}
+
+.menu .box-2{
+    width: 100%;
+    height: 30%;
+}
+
+.menu .logo img{
+    width: 80px;
+}
+
+.menu nav ul li{list-style-type: none;}
+.menu nav ul li a{font-size: 13px;transition: 0.5s;}
+.menu nav ul li a:hover{color:#fff}
+
+.menu .box-2 .box-button-menu{
+    width: 100%;
+    top: -20px;
+    z-index: 99;
+}
+
+.menu .box-2 .box-button-menu .icon-button-menu{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #4f366d;
+}
+
+
